@@ -36,3 +36,4 @@ $(call inherit-product, device/amlogic/g12-common/g12.mk)
 
 ## Inherit from the proprietary files makefile
 $(call inherit-product, vendor/askey/deadpool/deadpool-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
